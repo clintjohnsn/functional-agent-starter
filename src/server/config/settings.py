@@ -1,10 +1,11 @@
 """Server settings."""
 
 from functools import lru_cache
-from pathlib import Path
 
+from dotenv import load_dotenv
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+load_dotenv()
 
 class Settings(BaseSettings):
     """Server settings."""
@@ -20,8 +21,14 @@ class Settings(BaseSettings):
     # Logging
     LOG_LEVEL: str = "INFO"
 
+    # Postgres Configuration
+    POSTGRES_CONNECTION_STRING: str
+
     # API Keys
     OPENAI_API_KEY: str
+    LANGFUSE_PUBLIC_KEY: str
+    LANGFUSE_SECRET_KEY: str
+    LANGFUSE_HOST: str
 
     # CORS Configuration
     BACKEND_CORS_ORIGINS: str = "http://localhost:3000,http://localhost:5173"
