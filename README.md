@@ -8,21 +8,20 @@ A production-ready, opinionated starter template for building functional LangGra
 🦜 **[Functional LangGraph](https://github.com/langchain-ai/langgraph)**: Built with LangGraph's new functional API, enabling deterministic, composable, and stateful AI agent logic. LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful LLM agents and workflows — including agentic and multi-agent systems.
 
 ⚡ **[FastAPI](https://github.com/fastapi/fastapi)**: High-performance async web framework to serve your LangGraph server via HTTP endpoints.
-<!-- 
-📊 **[Langfuse](https://github.com/langfuse/langfuse) Integration**: Monitor, trace, and debug your LLM workflows with Langfuse (fully wired for LLMOps). -->
+
+📊 **[Langfuse](https://github.com/langfuse/langfuse) Integration**: Monitor, trace, and debug your LLM workflows with Langfuse (fully wired for LLMOps).
 
 🧠 **[Ell](https://docs.ell.so/#)** for LMP-style (Language Model Program) LLM calls - treating prompts as pure functions for lightweight, functional LLM programming OR **[Langchain](https://github.com/langchain-ai/langchain)** for more fine-grained, tool-oriented agent control. Easily separate prompts from code using Ell’s prompt management or externalize them with Langfuse.
 
 🔍 **[Pydantic](https://github.com/pydantic/pydantic)**: Modern data validation, parsing, and settings management using Pydantic BaseModel and Settings.
 
-<!-- 💾 **[PostgreSQL](https://www.postgresql.org/) for Checkpointing**: Durable, persistent storage of LangGraph agent state using PostgreSQL as the backing store. Ensures long-running processes can pause/resume deterministically. -->
+ 💾 **[PostgreSQL](https://www.postgresql.org/) for Checkpointing**: Durable, persistent storage of LangGraph agent state using PostgreSQL as the backing store. Ensures long-running processes can pause/resume deterministically.
 
 🐳 **[Docker](https://www.docker.com/) + Docker Compose**: Containerized for reproducible local dev, CI, and production deployments.
 
 🛠️ 
 
-
-### Tooling and Dev Experience
+### Developer Experience
 - 🧪 **Testing**: Pre-wired [Pytest Test Suite](https://docs.pytest.org/en/stable/) suite with [Coverage.py](https://github.com/nedbat/coveragepy).
 - 📦 **[uv](https://github.com/astral-sh/uv)** for packaging and dependency management
 - 🤖 **[Poe the Poet](https://github.com/nat-n/poethepoet)** for tasks
@@ -36,22 +35,20 @@ A production-ready, opinionated starter template for building functional LangGra
 .
 ├── src/
 │   └── server/
-│       ├── clients/             # Clients and integrations
-│       │   └── llm.py           
+│       ├── clients/             # Clients and integrations         
 │       ├── config/              # Application settings and environment config
 │       │   └── settings.py
 │       ├── models/              # Data models, DTOs, exception schemas, etc.
-│       │   ├── dto.py
-│       │   ├── exceptions.py
-│       │   └── states.py
 │       ├── routes/api/v1        # Routes and error handlers
 │       │   ├── api.py
 │       │   └── errors.py
 │       ├── workflows/           # LangGraph workflows and entry point
-│       │   └── example_workflow.py
+│       │   └── base.py          # Base Workflow, helper functions
 │       ├── services/            # Service Layer for business logic
-│       ├── middleware/           # Middleware Layer
-│       ├── main.py              # Server
+│       ├── middleware/          # Middleware Layer
+│       │   └── rate_limiter.py  # Rate limiter
+│       │   └── auth.py          # Auth
+│       ├── main.py              # Server / Entry Point
 ├── tests/                       # Pytest-based test suite
 ├── .env.example                 # Example environment variables
 ├── pre-commit-config.yaml       # Pre-commit hooks configuration
