@@ -15,9 +15,14 @@ dependencies = [
   "ell-ai[all]>=0.0.17",
   "fastapi[all]>=0.111.1,<0.112.0",
   "gunicorn (>=23.0.0)",
+  "langchain>=0.3.25",
+  "langfuse>=3.0.0",
   "langgraph>=0.4.8",
+  "langgraph-checkpoint-postgres>=2.0.21",
   "openai>=1.84.0",
   "poethepoet (>=0.32.1)",
+  "psycopg[binary,pool]>=3.2.9",
+  "slowapi>=0.1.9",
 ]
 
 [project.urls]  # https://packaging.python.org/en/latest/specifications/well-known-project-urls/#well-known-labels
@@ -82,7 +87,7 @@ docstring-code-format = true
 
 [tool.ruff.lint]
 select = ["A", "ASYNC", "B", "C4", "C90", "D", "DTZ", "E", "F", "FLY", "FURB", "I", "ISC", "LOG", "N", "NPY", "PERF", "PGH", "PIE", "PL", "PT", "Q", "RET", "RUF", "RSE", "SIM", "TID", "UP", "W", "YTT"]
-ignore = ["D203", "D213", "E501", "PGH002", "PGH003", "RET504", "S101", "S307"]
+ignore = ["D203", "D213", "E501", "PGH002", "PGH003", "RET504", "S101", "S307", "D401"]
 unfixable = ["F401", "F841"]
 
 [tool.ruff.lint.flake8-tidy-imports]
