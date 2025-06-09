@@ -19,7 +19,6 @@ A production-ready, opinionated starter template for building functional LangGra
 
 🐳 **[Docker](https://www.docker.com/) + Docker Compose**: Containerized for reproducible local dev, CI, and production deployments.
 
-🛠️ 
 
 ### Developer Experience
 - 🧪 **Testing**: Pre-wired [Pytest Test Suite](https://docs.pytest.org/en/stable/) suite with [Coverage.py](https://github.com/nedbat/coveragepy).
