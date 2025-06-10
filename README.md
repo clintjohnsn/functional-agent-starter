@@ -1,8 +1,10 @@
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE3IDE2VjdsLTYgNU0yIDlWOGwxLTFoMWw0IDMgOC04aDFsNCAyIDEgMXYxNGwtMSAxLTQgMmgtMWwtOC04LTQgM0gzbC0xLTF2LTFsMy0zIi8+PC9zdmc+)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/clintjohnsn/functional-langgraph-fastapi-starter)
 
-# 🚀 functional-agent-starter
+# 🚀 functional-agent-starter: Build Scalable AI Agents with Functional LangGraph and FastAPI
 
-A production-ready, opinionated starter template for building LangGraph agents with FastAPI, functional programming style. Designed for scalability, observability, and long-running AI workflows using modern Python best practices. All components are fully open-source and deployable anywhere.
+A production-ready template for crafting robust and observable AI agents. This opinionated starter kit leverages the functional LangGraph API, embracing a purely functional programming paradigm throughout its design. Built with modern Python best practices in mind, it's engineered for scalability, comprehensive observability, and the seamless management of long-running AI workflows.
+
+Every component within this project is fully open-source, offering you the freedom and flexibility to deploy your AI agents anywhere. Get started quickly and confidently, knowing your agents are built on a solid, maintainable, and high-performance foundation.
 
 ## 🎯 Key Features
 🦜 **[Functional LangGraph](https://github.com/langchain-ai/langgraph)**: Built with LangGraph's new functional API, enabling deterministic, composable, and stateful AI agent logic. LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful LLM agents and workflows — including agentic and multi-agent systems.
