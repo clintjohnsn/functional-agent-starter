@@ -1,6 +1,6 @@
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE3IDE2VjdsLTYgNU0yIDlWOGwxLTFoMWw0IDMgOC04aDFsNCAyIDEgMXYxNGwtMSAxLTQgMmgtMWwtOC04LTQgM0gzbC0xLTF2LTFsMy0zIi8+PC9zdmc+)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/clintjohnsn/functional-langgraph-fastapi-starter)
 
-# 🚀 functional-langgraph-fastapi-starter
+# 🚀 functional-agent-starter
 
 A production-ready, opinionated starter template for building functional LangGraph agents with FastAPI. Designed for scalability, observability, and long-running AI workflows using modern Python best practices. All components are fully open-source and deployable anywhere.
 
