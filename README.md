@@ -4,7 +4,7 @@
 
 A production-ready template for crafting robust and observable AI agents. This opinionated starter kit leverages the functional LangGraph API, embracing a purely functional programming paradigm throughout its design. Built with modern Python best practices in mind, it's engineered for scalability, comprehensive observability, and the seamless management of long-running AI workflows.
 
-Every component within this project is fully open-source, offering you the freedom and flexibility to deploy your AI agents anywhere. Get started quickly and confidently, knowing your agents are built on a solid, maintainable, and high-performance foundation.
+All dependencies are open-source and containerized, offering you the freedom and flexibility to deploy your AI agents to any cloud environment.
 
 ## 🎯 Key Features
 🦜 **[Functional LangGraph](https://github.com/langchain-ai/langgraph)**: Built with LangGraph's new functional API, enabling deterministic, composable, and stateful AI agent logic. LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful LLM agents and workflows — including agentic and multi-agent systems.
