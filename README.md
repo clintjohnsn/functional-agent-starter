@@ -2,7 +2,7 @@
 
 # 🚀 functional-agent-starter
 
-A production-ready, opinionated starter template for building functional LangGraph agents with FastAPI. Designed for scalability, observability, and long-running AI workflows using modern Python best practices. All components are fully open-source and deployable anywhere.
+A production-ready, opinionated starter template for building LangGraph agents with FastAPI, functional programming style. Designed for scalability, observability, and long-running AI workflows using modern Python best practices. All components are fully open-source and deployable anywhere.
 
 ## 🎯 Key Features
 🦜 **[Functional LangGraph](https://github.com/langchain-ai/langgraph)**: Built with LangGraph's new functional API, enabling deterministic, composable, and stateful AI agent logic. LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful LLM agents and workflows — including agentic and multi-agent systems.
